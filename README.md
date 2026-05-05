@@ -92,3 +92,5 @@ Por que APScheduler?
 Permite rodar tarefas periódicas em background sem depender de ferramentas externas como cron ou Celery, mantendo o projeto simples e autocontido.
 Por que httpx em vez de requests?
 httpx é a evolução moderna do requests, com suporte nativo a requisições assíncronas e uma API muito similar, facilitando uma eventual migração para endpoints async no futuro.
+
+<img width="1631" height="903" alt="Captura de tela 2026-05-03 195917" src="https://github.com/user-attachments/assets/85b59ee6-b828-47fa-9147-0e03d7d9399d" />
