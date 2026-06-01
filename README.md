@@ -7,7 +7,7 @@ Sobre o projeto
 O Price Tracker monitora preços de produtos de forma autônoma. Você cadastra um produto, define um preço alvo, e o sistema verifica automaticamente a cada hora se o preço caiu. Todo o histórico fica salvo no banco de dados e pode ser consultado a qualquer momento via API.
 Projeto desenvolvido como portfólio para demonstrar conhecimentos em Python, APIs REST, banco de dados relacional e consumo de APIs externas.
 
-Tecnologias utilizadas
+Tecnologia utilizada
 
 Python 3.12
 FastAPI — framework para construção da API REST
