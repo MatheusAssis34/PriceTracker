@@ -7,29 +7,22 @@ Sobre o projeto
 O Price Tracker monitora preços de produtos de forma autônoma. Você cadastra um produto, define um preço alvo, e o sistema verifica automaticamente a cada hora se o preço caiu. Todo o histórico fica salvo no banco de dados e pode ser consultado a qualquer momento via API.
 Projeto desenvolvido como portfólio para demonstrar conhecimentos em Python, APIs REST, banco de dados relacional e consumo de APIs externas.
 
+<<<<<<< HEAD
 Tecnologia utilizada
+=======
+Tecnologias utilizadas:
+>>>>>>> c3e7efe4451e45e1cfef5987e5932923ca6fcd54
 
-Python 3.12
-FastAPI — framework para construção da API REST
-SQLAlchemy — ORM para comunicação com o banco de dados
-SQLite — banco de dados relacional local
-httpx — cliente HTTP para consumo de APIs externas
-APScheduler — agendamento de tarefas em background
+Python 3.12,
+FastAPI — framework para construção da API REST,
+SQLAlchemy — ORM para comunicação com o banco de dados,
+SQLite — banco de dados relacional local,
+httpx — cliente HTTP para consumo de APIs externas,
+APScheduler — agendamento de tarefas em background,
 Uvicorn — servidor ASGI para rodar a aplicação
 
 
-Estrutura do projeto
-price_tracker/
-├── app/
-│   ├── __init__.py
-│   ├── main.py        # endpoints da API
-│   ├── models.py      # tabelas do banco de dados
-│   ├── database.py    # conexão com o SQLite
-│   ├── scraper.py     # busca de preços na API externa
-│   └── scheduler.py   # verificações automáticas de preço
-├── prices.db          # banco de dados SQLite (gerado automaticamente)
-├── requirements.txt
-└── README.md
+
 
 Como rodar localmente
 1. Clone o repositório
